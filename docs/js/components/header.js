@@ -6,7 +6,7 @@ export function loadHeader() {
             <nav class="site-nav" aria-label="Main navigation">
 
                 <a href="/" class="site-logo">
-                    Teresa<span>.</span>
+                    <span>Owner of Sakura Starline Studios</span>
                 </a>
 
                 <ul class="nav-links">
