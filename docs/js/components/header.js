@@ -5,8 +5,11 @@ export function loadHeader() {
 
             <nav class="site-nav" aria-label="Main navigation">
 
-                <a href="/" class="site-logo">
-                    <span>Owner of Sakura Starline Studios</span>
+                <a href="/" class="site-logo" arial-label="Teresa Molina home.">
+                    <img
+                        src="/assets/branding/logo.png"
+                        alt="Teresa Molina logo"
+                    >
                 </a>
 
                 <ul class="nav-links">

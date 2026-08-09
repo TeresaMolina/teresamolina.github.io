@@ -166,6 +166,11 @@ p {
     color: var(--color-lavender);
 }
 
+.site-logo img {
+    width: 150px;
+    height: auto;
+}
+
 
 .nav-links {
     list-style: none;
