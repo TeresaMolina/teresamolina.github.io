@@ -1,8 +1,19 @@
-export function loadFooter(){
+export function loadFooter() {
+
     const footerHTML = `
-    <footer>
-        <p>&copy; August 2026 My Portfolio. All rights reserved. Graphics: Sakura Starline Studios</p>
-    </footer>
+        <footer class="site-footer">
+
+            <p>
+                © 2026 Teresa Molina
+                <span aria-hidden="true"> · </span>
+                Built with curiosity &amp; code ✦
+            </p>
+
+        </footer>
     `;
-    document.body.insertAdjacentHTML('beforeend', footerHTML);
+
+    document.body.insertAdjacentHTML(
+        'beforeend',
+        footerHTML
+    );
 }

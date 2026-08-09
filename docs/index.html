@@ -1,55 +1,294 @@
-<!--Connect Main Page-->
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Professional Portfolio</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--Linking CSS and JavaScript files -->
-        <link rel="stylesheet" href="/css/styles.css">
-        <script type="module" src="/js/main.js" defer></script>
-    </head>
-<body>
-        <!--Header Applied Automatically-->
-        <main class="home-container">
-            <section class="home-section">
-                <span class="greeting-badge">Welcome to my site!</span>
-                <h1>Teresa Brianna Molina</h1>
-                <p class="subtitle">Aspiring Technologists</p>
-            </section>
+    <meta
+        name="description"
+        content="Teresa Molina's professional portfolio featuring education, experience, projects, and creative work."
+    >
 
-            <!--Fallback navigation grid-->
-            <section class="navigation-directory">
-                <h2>Explore the Works</h2>
-                <div class="dir-grid">
-                    <a href="/about/" class="dir-card">
-                        <h3>About Me</h3>
-                        <p>See my background and hobbies.</p>
+    <title>Teresa Molina | Portfolio</title>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script type="module" src="/js/main.js" defer></script>
+</head>
+
+<body class="home-page">
+
+    <!-- Header is inserted automatically by main.js -->
+
+    <main>
+
+        <!-- =========================
+             HERO/HOME
+             ========================= -->
+
+        <section class="hero-section">
+
+            <div class="hero-content">
+
+                <span class="greeting-badge">
+                    Welcome! I do pretty cool things. ✦
+                </span>
+
+                <h1>
+                    Hi, I'm
+                    <span class="gradient-text">Teresa Brianna Molina.</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    Technology, education, creativity,
+                    and a curiosity for figuring out
+                    how things work.
+                </p>
+
+                <p class="hero-description">
+                    Explore my academic journey, professional
+                    experience, projects, and the things I've
+                    created along the way.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#portfolio" class="primary-button">
+                        Explore My Portfolio
+                        <span aria-hidden="true">→</span>
                     </a>
 
-                    <a href="/education/" class="dir-card">
-                        <h3>Education</h3>
-                        <p>See my academic background and resumes.</p>
-                    </a>
-
-                    <a href="/experience/" class="dir-card">
-                        <h3>Experience</h3>
-                        <p>See my work history and professional achievements.</p>
-                    </a>
-
-                     <a href="/high-school/" class="dir-card">
-                        <h3>High School</h3>
-                        <p>See my high school background and achievements.</p>
-                    </a>
-
-                    <a href="/grad-school/" class="dir-card">
-                        <h3>Graduate School</h3>
-                        <p>See my graduate school courses and projects.</p>
+                    <a href="/about/" class="secondary-button">
+                        About Me
                     </a>
                 </div>
-            </section>
-        </main>
+
+            </div>
+
+            <!-- Decorative visual -->
+            <div class="hero-decoration" aria-hidden="true">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="floating-symbol symbol-one">&lt;/&gt;</div>
+                <div class="floating-symbol symbol-two">✦</div>
+                <div class="floating-symbol symbol-three">◇</div>
+
+                <div class="hero-star star-one">✦</div>
+                <div class="hero-star star-two">·</div>
+                <div class="hero-star star-three">✧</div>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+                    INTRO
+             ========================= -->
+
+        <section class="intro-section">
+
+            <div class="section-heading">
+                <span class="section-label">A LITTLE ABOUT ME</span>
+
+                <h2>
+                    Where technology
+                    meets <span class="accent-text">people.... Or something like that.</span>
+                </h2>
+
+                <p>
+                    I'm interested in the places where technology
+                    becomes useful, accessible, creative, and human.
+                </p>
+            </div>
+
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        &lt;/&gt;
+                    </div>
+
+                    <h3>Technology</h3>
+
+                    <p>
+                        Exploring technology through programming,
+                        web development, and hands-on projects.
+                    </p>
+                </article>
+
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        ✦
+                    </div>
+
+                    <h3>Education</h3>
+
+                    <p>
+                        Learning, growing, and finding ways technology
+                        can make education more fun and engaging.
+                    </p>
+                </article>
+
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">
+                        ◇
+                    </div>
+
+                    <h3>Creativity</h3>
+
+                    <p>
+                        Bringing a little personality into technical
+                        work through design, art, and experimentation.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PORTFOLIO JOURNEY
+             ========================= -->
+
+        <section class="portfolio-section" id="portfolio">
+
+            <div class="section-heading">
+                <span class="section-label">EXPLORE</span>
+
+                <h2>
+                    My <span class="accent-text">portfolio journey.</span>
+                </h2>
+
+                <p>
+                    Start wherever you'd like. Each section tells
+                    a different part of my story. <span class="accent-text">Maybe easter eggs too?</span>
+                </p>
+            </div>
+
+
+            <div class="portfolio-grid">
+
+                <a href="/about/" class="portfolio-card card-about">
+                    <span class="card-number">01</span>
+
+                    <div>
+                        <span class="card-category">GET TO KNOW ME</span>
+                        <h3>About Me</h3>
+
+                        <p>
+                            A little bit about who I am,
+                            what I enjoy, and what makes me tick.
+                        </p>
+                    </div>
+
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </a>
+
+
+                <a href="/education/" class="portfolio-card card-education">
+                    <span class="card-number">02</span>
+
+                    <div>
+                        <span class="card-category">ACADEMICS</span>
+                        <h3>Education</h3>
+
+                        <p>
+                            My academic background, coursework,
+                            and educational journey.
+                        </p>
+                    </div>
+
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </a>
+
+
+                <a href="/experience/" class="portfolio-card card-experience">
+                    <span class="card-number">03</span>
+
+                    <div>
+                        <span class="card-category">PROFESSIONAL</span>
+                        <h3>Experience</h3>
+
+                        <p>
+                            My work history, skills, and
+                            professional experiences.
+                        </p>
+                    </div>
+
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </a>
+
+
+                <a href="/high-school/" class="portfolio-card card-high-school">
+                    <span class="card-number">04</span>
+
+                    <div>
+                        <span class="card-category">THE BEGINNING</span>
+                        <h3>High School</h3>
+
+                        <p>
+                            Where some of my academic and
+                            creative journey began.
+                        </p>
+                    </div>
+
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </a>
+
+
+                <a href="/grad-school/" class="portfolio-card card-grad-school">
+                    <span class="card-number">05</span>
+
+                    <div>
+                        <span class="card-category">PROJECTS &amp; LEARNING</span>
+                        <h3>Graduate School</h3>
+
+                        <p>
+                            Graduate coursework, projects,
+                            and experiences.
+                        </p>
+                    </div>
+
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CALL TO ACTION
+             ========================= -->
+
+        <section class="cta-section">
+
+            <div class="cta-decoration" aria-hidden="true">
+                ✦
+            </div>
+
+            <span class="section-label">DONE EXPLORING ALREADY!? Thanks for stopping by! :D</span>
+
+            <h2>
+                There's more to
+                <span class="gradient-text">explore.</span>
+            </h2>
+
+            <p>
+                Take a look around and see where the black hole leads.
+            </p>
+
+            <a href="/about/" class="primary-button">
+                Start Here
+                <span aria-hidden="true">→</span>
+            </a>
+
+        </section>
+
+    </main>
+
 </body>
 </html>
