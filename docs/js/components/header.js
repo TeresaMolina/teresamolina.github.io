@@ -7,7 +7,7 @@ export function loadHeader() {
 
                 <a href="/" class="site-logo" arial-label="Teresa Molina home.">
                     <img
-                        src="/assets/art/branding/logo.png"
+                        src="/assets/art/branding/logo.jpg"
                         alt="Teresa Molina logo"
                     >
                 </a>
