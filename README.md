@@ -2,7 +2,7 @@
 ![lizard](https://media1.tenor.com/m/UY_0nvL3aRYAAAAC/oh-hiiii-oh-hi.gif)
 
 <!--Introduction-->
-# :sparkles: Welcome to my Portfolio :sparkles:
+# Welcome to my Portfolio
 
 ### **Full Name:** Teresa  Brianna Molina
 > Preffered: Bri
@@ -25,7 +25,7 @@
 
 <!--Coded with-->
 
-## Coded with:
+# Coded with: <img src="<img src="https://giffiles.alphacoders.com/426/4266.gif" alt="Kitty" style="width:50px;"/>" alt="Kitty" style="width:50px;"/><img src="https://giffiles.alphacoders.com/426/4266.gif" alt="Kitty" style="width:50px;"/>
 
 ![Site Link](https://img.shields.io/badge/HTML-C4590C)  ![Site Link](https://img.shields.io/badge/CSS-0C93C4)    ![Site Link](https://img.shields.io/badge/JavaScript-0FC40C)
 
@@ -33,13 +33,14 @@
 
 <!--Artworks-->
 
-## :art: Artwork Inside the Portfolio :video_game:
+# Artwork Inside the Portfolio <img src="https://giffiles.alphacoders.com/163/163328.gif" alt="Kitty" style="width:50px;"/>
 
 > [!WARNING]
 > Any artwork inside of the portfolio are created by hand and hold no AI-Generated Content.
 
 
-# Portoflio Status :dizzy:
+# Portoflio Status <img src="https://giffiles.alphacoders.com/426/4266.gif" alt="Kitty" style="width:50px;"/>
+
 - [X] Create Site Template
 - [X] Create Page Templates
 - [ ] Update ReadMe.md
