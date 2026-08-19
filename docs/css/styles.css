@@ -118,16 +118,6 @@ p {
     color: var(--color-text-muted);
 }
 
-ul {
-    list-style-type: disc;
-    color: white;
-}
-
-li {
-    list-style-type: square;
-    color: powderblue;
-}
-
 /* =========================================================
    HEADER
    ========================================================= */

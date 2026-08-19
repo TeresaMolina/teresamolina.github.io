@@ -10,15 +10,17 @@ Multimedia Specialist Brand: Sakura Starline Studios
 > Type: Twitch.tv Graphics and Media
 
 
-Portfolio Type: General
+Portfolio Type: Online/Website Portfolio with UX Design
 
 > Site Format:
 + Homepage
-    - About
-    - Education
-    - Experience
-    - High School
-    - Grad School
+    - **About**: Information, fun facts and artwork.
+    - **Education**: Degrees, high school diploma and certificates.
+    - **Experience**: All work experience.
+    - **High School**: Related leadership and medical backgroud.
+    - **Grad School**: M.Ed. of Educational Technology courses and projects.
+
+Acess the site here: [Teresa Molina  - Portfolio Site](https://teresamolina.github.io/)
 
 <!--Coded with-->
 
@@ -28,7 +30,18 @@ Portfolio Type: General
 
 *In reference with generative AI style elements*
 
+<!--Artworks-->
+
 ## Artwork Inside the Portfolio
 
 > [!WARNING]
 > Any artwork inside of the portfolio are created by hand and hold no AI-Generated Content.
+
+# Portoflio Status
+- [X] Create Site Templates
+- [X] Create Page Templates
+- [ ] Update ReadMe.md
+- [ ] Update All Page Information
+- [ ] Insert Artworks
+- [ ] Insert Resumes
+- [ ] Insert Graduate Projects
