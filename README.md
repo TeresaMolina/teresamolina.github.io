@@ -3,14 +3,15 @@
 
 <!--Introduction-->
 # :sparkles: Welcome to my Portfolio :sparkles:
-Full Name: Teresa  Brianna Molina
+
+### **Full Name:** Teresa  Brianna Molina
 > Preffered: Bri
 
-Multimedia Specialist Brand: Sakura Starline Studios
+### **Multimedia Specialist Brand:** Sakura Starline Studios
 > Type: Twitch.tv Graphics and Media
 
 
-Portfolio Type: Online/Website Portfolio with UX Design
+### **Portfolio Type:** Online/Website Portfolio with UX Design
 
 > Site Format:
 + Homepage
@@ -37,7 +38,8 @@ Portfolio Type: Online/Website Portfolio with UX Design
 > [!WARNING]
 > Any artwork inside of the portfolio are created by hand and hold no AI-Generated Content.
 
-# Portoflio Status :arrows_counterClockwise:
+
+# Portoflio Status :dizzy:
 - [X] Create Site Template
 - [X] Create Page Templates
 - [ ] Update ReadMe.md
