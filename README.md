@@ -33,11 +33,11 @@
 # Portfolio Status
 - [X] Create Site Template
 - [X] Create Page Templates
-- [ ] Update ReadMe.md
+- [X] Update ReadMe.md
 - [ ] Update All Page Information
 - [ ] Insert Artworks
-- [ ] Insert Resumes
-- [ ] Insert Graduate Projects
+- [X] Insert Resumes
+- [ ] Insert Graduate Portfolio Link
 
 <img src="https://giffiles.alphacoders.com/426/4266.gif" alt="Kitty" style="width:75px;"/>
 
