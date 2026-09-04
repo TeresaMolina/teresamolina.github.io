@@ -37,7 +37,7 @@
 - [ ] Update All Page Information
 - [ ] Insert Artworks
 - [X] Insert Resumes
-- [ ] Insert Graduate Portfolio Link
+- [X] Insert Graduate Portfolio Link
 
 <img src="https://giffiles.alphacoders.com/426/4266.gif" alt="Kitty" style="width:75px;"/>
 
