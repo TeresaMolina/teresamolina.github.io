@@ -21,13 +21,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    else if (currentPath.includes('/grad-school/')) {
-
-        import('./modules/gradProjects.js')
-            .then(module => {
-                module.initGradProjects();
-            });
-
-    }
-
 });
