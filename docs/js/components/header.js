@@ -5,7 +5,7 @@ export function loadHeader() {
 
             <nav class="site-nav" aria-label="Main navigation">
 
-                <a href="/" class="site-logo" arial-label="Teresa Molina home.">
+                <a href="/" class="site-logo" aria-label="Teresa Molina home.">
                     <img
                         src="/assets/art/branding/logo.jpg"
                         alt="Teresa Molina logo"
@@ -31,7 +31,12 @@ export function loadHeader() {
                     </li>
 
                     <li>
-                        <a href="/grad-school/">Grad School</a>
+                        <a href="https://sites.google.com/view/grad-school-teresa/home"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Graduate School
+                        </a>
                     </li>
 
                 </ul>
