@@ -33,11 +33,11 @@
 # Portfolio Status
 - [X] Create Site Template
 - [X] Create Page Templates
-- [X] Update ReadMe.md
-- [ ] Update All Page Information
+- [X] Update ReadMe.md <10/06/26>
+- [X] Update All Page Information
 - [ ] Insert Artworks
-- [X] Insert Resumes
 - [X] Insert Graduate Portfolio Link
+- [ ] Update the visuals to show off personal skils
 
 <img src="https://giffiles.alphacoders.com/426/4266.gif" alt="Kitty" style="width:75px;"/>
 
