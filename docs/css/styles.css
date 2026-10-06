@@ -1236,3 +1236,100 @@ section {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* =========================================================
+   SKILL GRID - HOVER EFFECTS
+   ========================================================= */
+/* Color Palette Variables (Change these to match your site) */
+:root {
+    --bg-card: #121216;               /* Dark card background */
+    --border-card: #2a2a35;           /* Subtle dark border */
+    --glow-primary: #9333ea;          /* Main glow (Royal/Electric Purple) */
+    --glow-secondary: #67fdfd;        /* Accent blue/cyan glow */
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+}
+
+/* Responsive Grid Layout */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* Skill Card Styling */
+.skill-card {
+    position: relative;
+    background: var(--bg-card);
+    border: 1px solid var(--border-card);
+    border-radius: 14px;
+    padding: 1.5rem;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                border-color 0.3s ease, 
+                box-shadow 0.3s ease;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.skill-card h3 {
+    margin: 0.5rem 0 1rem 0;
+    font-size: 1.15rem;
+    color: var(--text-primary);
+}
+
+.card-icon {
+    font-size: 1.8rem;
+}
+
+/* Glowing Border & Drop Shadow on Hover */
+.skill-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--glow-primary);
+    box-shadow: 
+        0 0 15px rgba(147, 51, 234, 0.4),
+        0 0 30px rgba(147, 51, 234, 0.15);
+}
+
+/* Subtle Animated Inner Gradient Overlay */
+.skill-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba(147, 51, 234, 0.12), rgba(59, 130, 246, 0.05));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.skill-card:hover::before {
+    opacity: 1;
+}
+
+/* Tags Container */
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill-tag {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    transition: all 0.25s ease;
+}
+
+/* Tag Glow Shift when Parent Card is Hovered */
+.skill-card:hover .skill-tag {
+    border-color: rgba(147, 51, 234, 0.35);
+    background: rgba(147, 51, 234, 0.12);
+    color: #ffffff;
+}
