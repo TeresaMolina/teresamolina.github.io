@@ -1,13 +1,7 @@
-<!--Welcome image banner-->
-![lizard](https://media1.tenor.com/m/UY_0nvL3aRYAAAAC/oh-hiiii-oh-hi.gif)
-<!--Introduction-->
 # Welcome to my Portfolio
 
 ### **Full Name:** Teresa  Brianna Molina
 > Preferred: Bri
-
-### **Multimedia Specialist Brand:** Sakura Starline Studios
-> Type: Twitch.tv Graphics and Media
 
 ### **Portfolio Type:** Online/Website Portfolio with UX Design
 <img src="https://dl.glitter-graphics.com/pub/3586/3586521qzrl8obu5n.gif" alt="heart jar" style="width:75px;"/>
