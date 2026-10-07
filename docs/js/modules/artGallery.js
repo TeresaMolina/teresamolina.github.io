@@ -1,65 +1,58 @@
 const galleryItems=[
     {
-        title: "Image1",
+        title: "Absalom Banner",
         image: "/assets/art/samples/absalom-banner.jpg",
         description: "Eye Shot of Absalom.",
-        link: "#"
+        link: "/workspaces/teresamolina.github.io/docs/assets/art/samples/absalom-banner.jpg"
     },
 
         {
-        title: "Image2",
+        title: "Absalom Headshot",
         image: "/assets/art/samples/absalom0.jpg",
         description: "Headshot of Absalom.",
-        link: "#"
+        link: "/workspaces/teresamolina.github.io/docs/assets/art/samples/absalom0.jpg"
     },    
     
     {
-        title: "Image3",
+        title: "Absalom Waist Shot",
         image: "/assets/art/samples/absalom1.jpg",
         description: "Waist up shot of Absalom.",
-        link: "#"
+        link: "/workspaces/teresamolina.github.io/docs/assets/art/samples/absalom1.jpg"
     },
 
-    // {
-    //     title: "Image4",
-    //     image: "/assets/art/samples/absalom2.jpg",
-    //     description: "enter comment",
-    //     link: "#"
-    // },
-
     {
-        title: "Image5",
+        title: "Absalom Fight Scene",
         image: "/assets/art/samples/absalom3.jpg",
         description: "Absalom fight with grimm reaper.",
-        link: "#"
+        link: "/workspaces/teresamolina.github.io/docs/assets/art/samples/absalom3.jpg"
     },
 
     {
-        title: "Image6",
+        title: "Cerberus Emote",
         image: "/assets/art/samples/cerberus-emote.jpg",
         description: "Cerberus emote.",
-        link: "#"
+        link: "/workspaces/teresamolina.github.io/docs/assets/art/samples/cerberus-emote.jpg"
     },
 
     {
-        title: "Image7",
+        title: "Twitch Avatar - Human Superstar",
         image: "/assets/art/samples/twitch-avatar1.jpg",
         description: "Twitch avatar - Human Superstar.",
-        link: "#"
+        link: "/workspaces/teresamolina.github.io/docs/assets/art/samples/twitch-avatar1.jpg"
     },
 
     {
-        title: "Image8",
+        title: "Twitch Avatar - Animatronic",
         image: "/assets/art/samples/twitch-avatar2.jpg",
         description: "Twitch avatar - Animatronic.",
-        link: "#"
+        link: "/workspaces/teresamolina.github.io/docs/assets/art/samples/twitch-avatar2.jpg"
     },
 
     {
-        title: "Image9",
+        title: "Twitch Avatar - Ghost Face Woman",
         image: "/assets/art/samples/twitch-avatar3.jpg",
         description: "Twitch avatar - Ghost Face Woman.",
-        link: "#"
+        link: "/workspaces/teresamolina.github.io/docs/assets/art/samples/twitch-avatar3.jpg"
     }
 
 ];
