@@ -29,7 +29,7 @@
 - [X] Create Page Templates
 - [X] Update ReadMe.md <10/06/26>
 - [X] Update All Page Information
-- [ ] Insert Artworks
+- [X] Insert Artworks
 - [X] Insert Graduate Portfolio Link
 - [ ] Update the visuals to show off personal skils
 
